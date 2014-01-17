@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+    <siteMapNode title="Home"
+             description="Home Page"
+             url="Default.aspx">
+
+    <siteMapNode title="Products"
+           description="Products we offer"
+           url="~/CustomerPages/shoppingCart.aspx" />
+
+    <siteMapNode title="Brands"
+           description="Brands"
+           url="~/CustomerPages/customerSuppliers.aspx" />
+
+    <siteMapNode title="Contact Us"
+           description="Contact Us"
+           url="~/CustomerPages/contactUs.aspx" />
+
+    <siteMapNode title="About Us"
+         description="About Us"
+                 url="~/CustomerPages/aboutUs.aspx"/>
+
+    <siteMapNode title="Administrator/Home"
+         description="Administrator/Home"
+         url="~/AdminPages/adminHome.aspx"/>
+
+    <siteMapNode title="Administrator/Supplier"
+           description="Administrator/Supplier"
+           url="~/AdminPages/adminSupplier.aspx" roles="emp"/>
+
+    <siteMapNode title="Administrator/Products"
+           description="Administrator/Products"
+           url="~/AdminPages/adminProducts.aspx"/>
+
+    <siteMapNode title="Administrator/Customers"
+       description="Administrator/Customers"
+       url="~/AdminPages/adminCustomers.aspx"/>
+
+    <siteMapNode title="Administrator/Customer-Order"
+           description="Administrator/Customer-Order"
+           url="~/AdminPages/adminCustomerOrders.aspx"/>
+
+    <siteMapNode title="Administrator/Stock Levels"
+           description="Administrator/Stock Levels"
+           url="~/AdminPages/adminStockLevel.aspx"/>
+  </siteMapNode>
+</siteMap>
